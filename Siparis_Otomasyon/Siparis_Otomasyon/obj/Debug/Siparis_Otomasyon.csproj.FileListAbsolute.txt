@@ -1,0 +1,67 @@
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\Siparis_Otomasyon.exe.config
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\Siparis_Otomasyon.exe
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\Siparis_Otomasyon.pdb
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\EntityFramework.dll
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\System.Data.SQLite.dll
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\EntityFramework.xml
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\System.Data.SQLite.xml
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.csproj.AssemblyReference.cache
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Form1.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Properties.Resources.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.csproj.GenerateResource.cache
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.csproj.CoreCompileInputs.cache
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.exe
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.pdb
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\FontAwesome.Sharp.dll
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_giris.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_araba_arama.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_araba_detay.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin_araba_guncelle_sil.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin_araba_ekle.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin_musteri_arama.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin_siparisler.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici_hesap_bilgileri.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici_siparis_ver.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici_siparisleri.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_cikis.resources
+Z:\Yeni klasör\Siparis_Otomasyon\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici_siparis_ekrani.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\Siparis_Otomasyon.exe.config
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\Siparis_Otomasyon.exe
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\Siparis_Otomasyon.pdb
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\EntityFramework.dll
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\FontAwesome.Sharp.dll
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\System.Data.SQLite.dll
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\EntityFramework.xml
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\bin\Debug\System.Data.SQLite.xml
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.csproj.AssemblyReference.cache
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Form1.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Properties.Resources.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin_araba_ekle.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin_araba_guncelle_sil.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin_musteri_arama.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_admin_siparisler.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_araba_arama.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_araba_detay.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_cikis.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_giris.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici_hesap_bilgileri.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici_siparisleri.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici_siparis_ekrani.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.Ui.uc_kullanici_siparis_ver.resources
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.csproj.GenerateResource.cache
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.csproj.CoreCompileInputs.cache
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.exe
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.pdb
+Z:\Siparis_Otomasyon\Siparis_Otomasyon\obj\Debug\Siparis_Otomasyon.csproj.CopyComplete

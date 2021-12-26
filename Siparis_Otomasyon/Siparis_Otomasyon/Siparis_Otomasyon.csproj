@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2564CC1-5EC0-4D4C-AD9E-36D627178276}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Siparis_Otomasyon</RootNamespace>
+    <AssemblyName>Siparis_Otomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Odemeler\KapidaOdeme.cs" />
+    <Compile Include="Odemeler\NakitOdeme.cs" />
+    <Compile Include="Odemeler\Odeme.cs" />
+    <Compile Include="Odemeler\TaksitleOdeme.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ui\admin\uc_admin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\admin\uc_admin.Designer.cs">
+      <DependentUpon>uc_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\admin\uc_admin_araba_ekle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\admin\uc_admin_araba_ekle.Designer.cs">
+      <DependentUpon>uc_admin_araba_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\admin\uc_admin_araba_guncelle_sil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\admin\uc_admin_araba_guncelle_sil.Designer.cs">
+      <DependentUpon>uc_admin_araba_guncelle_sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\admin\uc_admin_musteri_arama.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\admin\uc_admin_musteri_arama.Designer.cs">
+      <DependentUpon>uc_admin_musteri_arama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\admin\uc_admin_siparisler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\admin\uc_admin_siparisler.Designer.cs">
+      <DependentUpon>uc_admin_siparisler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\uc_araba_arama.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\uc_araba_arama.Designer.cs">
+      <DependentUpon>uc_araba_arama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\uc_araba_detay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\uc_araba_detay.Designer.cs">
+      <DependentUpon>uc_araba_detay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\login\uc_cikis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\login\uc_cikis.Designer.cs">
+      <DependentUpon>uc_cikis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\login\uc_giris.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\login\uc_giris.Designer.cs">
+      <DependentUpon>uc_giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\uc_islemleri.cs" />
+    <Compile Include="Ui\kullanici\uc_kullanici.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\kullanici\uc_kullanici.Designer.cs">
+      <DependentUpon>uc_kullanici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\kullanici\uc_kullanici_hesap_bilgileri.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\kullanici\uc_kullanici_hesap_bilgileri.Designer.cs">
+      <DependentUpon>uc_kullanici_hesap_bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\kullanici\uc_kullanici_siparisleri.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\kullanici\uc_kullanici_siparisleri.Designer.cs">
+      <DependentUpon>uc_kullanici_siparisleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\kullanici\uc_kullanici_siparis_ekrani.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\kullanici\uc_kullanici_siparis_ekrani.Designer.cs">
+      <DependentUpon>uc_kullanici_siparis_ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\kullanici\uc_kullanici_siparis_ver.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\kullanici\uc_kullanici_siparis_ver.Designer.cs">
+      <DependentUpon>uc_kullanici_siparis_ver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VeriErisim\DALs\Arabalar\ArabaCekisTipDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Arabalar\ArabaDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Arabalar\ArabaKasaTipiDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Arabalar\ArabaMarkaDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Arabalar\ArabaModelDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Arabalar\ArabaRenkDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Arabalar\ArabaVitesTipiDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Arabalar\ArabaYakitTipiDAL.cs" />
+    <Compile Include="VeriErisim\DALs\DAL_Base.cs" />
+    <Compile Include="VeriErisim\DALs\Musteriler\IlceDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Musteriler\IlDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Musteriler\MusteriDAL.cs" />
+    <Compile Include="VeriErisim\DALs\Siparisler\SiparisDAL.cs" />
+    <Compile Include="VeriErisim\Interface\IDAL.cs" />
+    <Compile Include="VeriErisim\Interface\IDeGoreGetir.cs" />
+    <Compile Include="VeriErisim\Interface\ID_Getir.cs" />
+    <Compile Include="VeriErisim\otomasyonContext.cs" />
+    <Compile Include="VeriErisim\Tablolar\Arabalar\Araba.cs" />
+    <Compile Include="VeriErisim\Tablolar\Arabalar\ArabaCekisTipi.cs" />
+    <Compile Include="VeriErisim\Tablolar\Arabalar\ArabaKasaTipi.cs" />
+    <Compile Include="VeriErisim\Tablolar\Arabalar\ArabaMarka.cs" />
+    <Compile Include="VeriErisim\Tablolar\Arabalar\ArabaModel.cs" />
+    <Compile Include="VeriErisim\Tablolar\Arabalar\ArabaRenk.cs" />
+    <Compile Include="VeriErisim\Tablolar\Arabalar\ArabaVitesTipi.cs" />
+    <Compile Include="VeriErisim\Tablolar\Arabalar\ArabaYakitTipi.cs" />
+    <Compile Include="VeriErisim\Tablolar\Musteriler\Il.cs" />
+    <Compile Include="VeriErisim\Tablolar\Musteriler\Ilce.cs" />
+    <Compile Include="VeriErisim\Tablolar\Musteriler\Musteri.cs" />
+    <Compile Include="VeriErisim\Tablolar\Siparisler\Siparis.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Ui\admin\uc_admin.resx">
+      <DependentUpon>uc_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\admin\uc_admin_araba_ekle.resx">
+      <DependentUpon>uc_admin_araba_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\admin\uc_admin_araba_guncelle_sil.resx">
+      <DependentUpon>uc_admin_araba_guncelle_sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\admin\uc_admin_musteri_arama.resx">
+      <DependentUpon>uc_admin_musteri_arama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\admin\uc_admin_siparisler.resx">
+      <DependentUpon>uc_admin_siparisler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\uc_araba_arama.resx">
+      <DependentUpon>uc_araba_arama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\uc_araba_detay.resx">
+      <DependentUpon>uc_araba_detay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\login\uc_cikis.resx">
+      <DependentUpon>uc_cikis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\login\uc_giris.resx">
+      <DependentUpon>uc_giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\kullanici\uc_kullanici.resx">
+      <DependentUpon>uc_kullanici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\kullanici\uc_kullanici_hesap_bilgileri.resx">
+      <DependentUpon>uc_kullanici_hesap_bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\kullanici\uc_kullanici_siparisleri.resx">
+      <DependentUpon>uc_kullanici_siparisleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\kullanici\uc_kullanici_siparis_ekrani.resx">
+      <DependentUpon>uc_kullanici_siparis_ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\kullanici\uc_kullanici_siparis_ver.resx">
+      <DependentUpon>uc_kullanici_siparis_ver.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>
